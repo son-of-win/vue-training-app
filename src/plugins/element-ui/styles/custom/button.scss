@@ -1,0 +1,119 @@
+@use 'sass:map';
+@use '~element-plus/theme-chalk/src/mixins/var' as *;
+@use '~element-plus/theme-chalk/src/mixins/function' as *;
+@use '~element-plus/theme-chalk/src/mixins/mixins' as *;
+@use '~element-plus/theme-chalk/src/mixins/button' as *;
+@use '~element-plus/theme-chalk/src/common/var' as *;
+@import '../../../../assets/styles/variables.scss';
+
+@include b(button) {
+    background-color: $color-blue-1 !important;
+    border-color: $color-red !important;
+    color: $color-red !important;
+
+    &.is-plain,
+    &:focus,
+    &.is-plain:focus {
+        color: $color-red !important;
+        background: $color-blue-1 !important;
+        border-color: $color-red !important;
+    }
+
+    &:hover,
+    &.is-plain:hover {
+        background-color: $color-red-2 !important;
+        border-color: $color-red !important;
+        color: $color-red !important;
+    }
+
+    &.is-disabled,
+    &.is-disabled:hover,
+    &.is-disabled:focus {
+        background-color: $color-red !important;
+        opacity: 0.5 !important;
+    }
+
+    &--primary {
+        background-color: $color-red !important;
+        border-color: $color-red !important;
+        color: $color-white !important;
+
+        &.is-plain,
+        &:focus,
+        &.is-plain:focus {
+            color: $color-white !important;
+            background: $color-red !important;
+            border-color: $color-red !important;
+        }
+
+        &:hover,
+        &.is-plain:hover {
+            background-color: $color-hover-red !important;
+            border-color: $color-hover-red !important;
+            color: $color-white !important;
+        }
+    }
+
+    &--success {
+        background-color: $color-white !important;
+        border-color: $color-red !important;
+        color: $color-red !important;
+
+        &.is-plain,
+        &:focus,
+        &.is-plain:focus {
+            color: $color-white !important;
+            background: $color-red !important;
+            border-color: $color-red !important;
+        }
+
+        &:hover,
+        &.is-plain:hover {
+            background-color: $color-blue-1 !important;
+            border-color: $color-red !important;
+            color: $color-red !important;
+        }
+    }
+
+    &--info {
+        background-color: $color-blue-1 !important;
+        border-color: $color-blue-1 !important;
+        color: $color-red !important;
+
+        &.is-plain,
+        &:focus,
+        &.is-plain:focus {
+            color: $color-white !important;
+            background: $color-red !important;
+            border-color: $color-red !important;
+        }
+
+        &:hover,
+        &.is-plain:hover {
+            background-color: $color-red-2 !important;
+            border-color: $color-red-2 !important;
+            color: $color-red !important;
+        }
+    }
+
+    &--warning {
+        background-color: $color-blue-gray !important;
+        border-color: $color-blue-gray !important;
+        color: $color-white !important;
+
+        &.is-plain,
+        &:focus,
+        &.is-plain:focus {
+            color: $color-white !important;
+            background: $color-blue-gray !important;
+            border-color: $color-blue-gray !important;
+        }
+
+        &:hover,
+        &.is-plain:hover {
+            background-color: $color-hover-gray !important;
+            border-color: $color-hover-gray !important;
+            color: $color-white !important;
+        }
+    }
+}

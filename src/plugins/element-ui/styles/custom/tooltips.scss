@@ -1,0 +1,19 @@
+@use 'sass:map';
+@use '~element-plus/theme-chalk/src/mixins/var' as *;
+@use '~element-plus/theme-chalk/src/mixins/function' as *;
+@use '~element-plus/theme-chalk/src/mixins/mixins' as *;
+@use '~element-plus/theme-chalk/src/common/var' as *;
+@import '../../../../assets/styles/variables.scss';
+
+.el-popper.is-customized {
+    width: 180px;
+    padding: 7px 12px;
+    opacity: 0.8;
+    background-color: $color-black-2v;
+    color: $color-white;
+}
+
+.el-popper.is-customized .el-popper__arrow::before {
+    background-color: $color-black-2v;
+    right: 0;
+}

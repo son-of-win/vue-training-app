@@ -1,0 +1,59 @@
+$grid-breakpoints: (
+    xs: 399px,
+    sm: 575px,
+    md: 767px,
+    lg: 991px,
+    xl: 1199px,
+    xxl: 1399px,
+);
+
+$content-max-width: 1120px;
+$content-padding: 16px;
+$content-left-width: 265px;
+$content-right-width: 360px;
+
+// z-index management
+$zIndex: (
+    menu: 100,
+    popup: 200,
+    chatBox: 300,
+    searchForm: 150,
+);
+
+$color-red: #ea2548;
+$color-red-2: #ffcbcb;
+$color-linear-gradient-red: linear-gradient(87.27deg, #da132b -2.39%, #f5787f 50.92%);
+$color-pink-red: #fb6275;
+$color-pink-light: #feeeee;
+$color-pink-light-2: #fcf0f0;
+$color-blue-gray: #3e4a67;
+$color-white: #ffffff;
+$color-light-gray: #ededed;
+$color-black: #1d1d1d;
+$color-black-2v: #403d50;
+$color-black-3: #b6b6b6;
+$color-black-3-opacity-20: rgba(182, 182, 182, 0.2);
+$color-blue-1: #feeeee;
+$color-blue-3: #ededed;
+$color-gray: #f3f3f3;
+$color-gray-2: #e5e5e5;
+$color-gray-opacity-18: rgba(165, 168, 185, 0.18);
+$color-gray-opacity-30: rgba(243, 243, 243, 0.3);
+$color-gray-opacity-50: rgba(243, 243, 243, 0.5);
+$color-gray-opacity-60: rgba(243, 243, 243, 0.6);
+$color-black-opacity-3: rgba(0, 0, 0, 0.03);
+$color-green: #30d0c3;
+
+$color-hover-red: #b50f2d;
+$color-hover-gray: #182546;
+
+$color-main-banner-background: #fcf2f2;
+$color-border-footer: #f5dcdc;
+
+$scroll-bar-dark: #888888;
+$scroll-bar-dark-on-hover: #555555;
+
+$color-red-1: #e32f22;
+$color-green: #30d0c3;
+$color-green-dark: #389f96;
+$color-green-1: #effdfa;

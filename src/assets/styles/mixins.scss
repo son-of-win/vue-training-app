@@ -1,0 +1,6 @@
+@mixin limit-by-n-line($number-line: number) {
+    display: -webkit-box;
+    -webkit-line-clamp: $number-line;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
