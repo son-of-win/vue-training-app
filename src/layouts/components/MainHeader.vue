@@ -45,6 +45,7 @@ export default class MainHeader extends Vue {}
         font-family: Acumin, 'Helvetica Neue', sans-serif;
     }
     .author {
+        text-align: start;
         font-size: 15px;
         color: #b3a369;
         font-family: Acumin, 'Helvetica Neue', sans-serif;
