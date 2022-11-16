@@ -6,8 +6,6 @@
                 <component :is="Component" />
             </router-view>
         </div>
-        <BaseScrollToTopButton />
-        <BaseIconChatGroup />
         <MainFooter />
     </div>
 </template>
@@ -44,5 +42,6 @@ export default class MainLayout extends Vue {
     flex: 1;
     display: flex;
     flex-direction: column;
+    background: #f4f4f4;
 }
 </style>

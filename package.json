@@ -13,8 +13,11 @@
   "dependencies": {
     "@intlify/runtime": "^9.1.10",
     "axios": "^1.1.3",
+    "bootstrap": "^5.2.2",
+    "bootstrap-vue": "^2.23.1",
     "core-js": "^3.8.3",
     "element-plus": "^2.2.21",
+    "husky": "^8.0.2",
     "moment": "^2.29.4",
     "vee-validate": "^4.7.2",
     "vue": "^3.2.13",
