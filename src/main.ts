@@ -9,6 +9,8 @@ import './assets/styles/bootstrap/bootstrap.min.css';
 import './assets/styles/global.scss';
 import { createMetaManager, defaultConfig } from 'vue-meta';
 import VueGTag from 'vue-gtag';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-vue/dist/bootstrap-vue.css';
 
 const app = createApp(App)
     .use(store)
